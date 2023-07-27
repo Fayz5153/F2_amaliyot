@@ -28,7 +28,7 @@ const Add = () => {
     return ( 
         <React.Fragment>
             <div className="add">
-                
+                <h1>Add News</h1>
                 <input 
                     type="text" placeholder='img url' 
                     onChange={(e)=>setImg(e.target.value)}
